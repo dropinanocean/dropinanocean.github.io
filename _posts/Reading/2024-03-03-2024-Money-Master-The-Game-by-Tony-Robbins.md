@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "Reading: Money Master The Game by Tony Robbins"
-image: /assets/images/img-2.jpg
+title:  "Money Master The Game by Tony Robbins"
+# image: /assets/images/img-3.jpg
 #date:   2024-03-03 12:41:10 -0700
 categories: reading
 ---
 <!-- {{page.image}} -->
+
+![Money Master The Game by Tony Robbins](/assets/images/img-3.jpg)
+
 
 **One of my new year resolutions was to "read more" and consistently. First book I selected to read was [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) by Tony Robbins which I bought in 2016-17 but never finished. It is a 600 page book, am closing in on the final 100 pages. Really happy with the progress so far.**
 

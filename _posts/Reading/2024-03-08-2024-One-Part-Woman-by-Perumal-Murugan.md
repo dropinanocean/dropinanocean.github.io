@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Reading: One Part Woman by Perumal Murugan"
-image: /assets/images/img-2.jpg
+title:  "One Part Woman by Perumal Murugan"
+# image: /assets/images/img-2.jpg
 # date:   2024-03-03 12:41:10 -0700
 categories: reading
 ---
+
+![One Part Woman by Perumal Murugan](/assets/images/img-2.jpg)
 
 **March 5, 2024**:
 
