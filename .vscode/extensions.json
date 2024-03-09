@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "killalau.vscode-liquid-snippets"
+    "killalau.vscode-liquid-snippets",
+    "neilding.language-liquid"
   ]
 }
