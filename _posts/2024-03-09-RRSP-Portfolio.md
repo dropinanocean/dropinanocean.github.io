@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "RRSP Portfolio Layout March 2024 "
-# image: /assets/images/rrsp-1.jpg
+title:  "RRSP Portfolio Update March 2024 "
+image: /assets/images/rrsp-1.jpg
 # date:   2024-03-03 12:41:10 -0700
 categories: finance
 ---
 ![RRSP Portfolio March 8 2024](/assets/images/img-4.jpg)
 
-[BCE](https://money.tmx.com/en/quote/BCE)
-[AP.UN](https://money.tmx.com/en/quote/AP.UN)
+<!-- [BCE](https://money.tmx.com/en/quote/BCE)
+[AP.UN](https://money.tmx.com/en/quote/AP.UN) -->
 
 As you all know, I just finished reading [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) which means I have learnt by now to save and diversify the investments. That being said, at the moment my RRSP is not in the best shape by any means. It is red and contains two dividend paying Canadian Companies. 
 
