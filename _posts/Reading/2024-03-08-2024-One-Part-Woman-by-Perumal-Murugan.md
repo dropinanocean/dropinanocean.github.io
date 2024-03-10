@@ -1,22 +1,21 @@
 ---
 layout: post
 title:  "One Part Woman by Perumal Murugan"
-# image: /assets/images/img-2.jpg
+image: /assets/images/img-2.jpg
+# excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700
 categories: reading
 ---
+<p>Finally, I finished the last 100 pages of the Money Master The Game by Tony Robbins and last chapters were focused on making "giving" a part of your life.</p> 
 
-![One Part Woman by Perumal Murugan](/assets/images/img-2.jpg)
-
-**March 5, 2024**:
-
-Finally, I finished the last 100 pages of the [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) and last chapters were focused on making "giving" a part of your life. 
+<!-- **March 5, 2024**: -->
 
 My March Reading goal is to finish, [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) by Perumal Murugan
 
 >**"Set in South India during the British colonial period but with powerful resonance to the present day, One Part Woman tells the story of a couple, Kali and Ponna, who are unable to conceive, much to the concern of their families—and the crowing amusement of Kali's male friends."**
 
 **March 8, 2024**:
+
 
 It is Friday March of 8th, and I have read the whole book [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) Really proud of myself and looking forward to the continuance of my reading journey. 
 
@@ -50,3 +49,4 @@ Because all of Kali and Ponna's efforts to conceive have failed, their family be
 
 In the final moments of the novel, Kali wanders back to his home, desperate to be reunited with his wife. At the festival, Ponna retreats into the crowd with the man with whom she has chosen to sleep. When Kali discovers his wife has gone to the festival against his will, he resorts to angry despair, believing his wife unfaithful and deceitful.
 
+<!-- ![One Part Woman by Perumal Murugan](/assets/images/img-2.jpg) -->
