@@ -3,19 +3,16 @@ layout: post
 title:  "RRSP Portfolio Update March 2024 "
 image: /assets/images/rrsp-1.jpg
 # date:   2024-03-03 12:41:10 -0700
+# excerpt_ separator: <!--more-->
 categories: finance
 ---
-![RRSP Portfolio March 8 2024](/assets/images/img-4.jpg)
-
-<!-- [BCE](https://money.tmx.com/en/quote/BCE)
-[AP.UN](https://money.tmx.com/en/quote/AP.UN) -->
-
-As you all know, I just finished reading [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) which means I have learnt by now to save and diversify the investments. That being said, at the moment my RRSP is not in the best shape by any means. It is red and contains two dividend paying Canadian Companies. 
+<p>As you all know, I just finished reading Money Master The Game by Tony Robbins which means I have learnt by now to save and diversify the investments. That being said, at the moment my RRSP is not in the best shape by any means. It is red and contains two dividend paying Canadian Companies.</p>
 
 | Stock | Number of Shares | Book Value | Market Value | Portfolio Percentage |
 | ----- |----- |----- |----- |----- |
 | [Bell Canada Enterprises Inc. BCE](https://money.tmx.com/en/quote/BCE) | 905 | 49,083.12 | 44,625.55 | 84.01% |
 | [Allied Properties AP.UN](https://money.tmx.com/en/quote/AP.UN) | 484 | 10,148.08| 8,499.04 | 15.99% |
+
 
 As you can see between book value and market value, I am almost 7k in *RED*
 
@@ -28,3 +25,9 @@ Only SilverLining is the dividends with these stocks, [BCE](https://money.tmx.co
 [BCE](https://money.tmx.com/en/quote/BCE) next dividend of $.9975 CAD has ex-dividend of Mar 15 2024 and payout date of April 15 2024. I will be getting $902.7375 CAD for my [BCE](https://money.tmx.com/en/quote/BCE) holdings. 
 
 [AP.UN](https://money.tmx.com/en/quote/AP.UN) next dividend of $.15 had ex-dividend of Feb 28 2024 and payout date of Mar 15 2024, I will be getting $72.6 CAD for my [AP.UN](https://money.tmx.com/en/quote/AP.UN) holdings.
+
+
+<!-- ![RRSP Portfolio March 8 2024](/assets/images/img-4.jpg) -->
+
+<!-- [BCE](https://money.tmx.com/en/quote/BCE)
+[AP.UN](https://money.tmx.com/en/quote/AP.UN) -->

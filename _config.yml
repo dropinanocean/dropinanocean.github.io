@@ -20,6 +20,8 @@
 
 title: Drop In An Ocean
 email: ammyamazing@gmail.com
+excerpt_ separator: <!--more->
+show_excerpts: true
 description: >- # this means to ignore newlines until "baseurl:"
   A personal blog to share my thoughts, experiences, interests and hobbies.
 baseurl: "" # the subpath of your site, e.g. /blog

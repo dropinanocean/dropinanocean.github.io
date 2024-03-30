@@ -2,15 +2,12 @@
 layout: post
 title:  "Money Master The Game by Tony Robbins"
 image: /assets/images/img-3.jpg
+# excerpt_ separator: <!--more-->
 #date:   2024-03-03 12:41:10 -0700
 categories: reading
 ---
-<!-- {{page.image}} -->
+<p>One of my new year resolutions was to "read more" and consistently. First book I selected to read was Money Master The Game by Tony Robbins which I bought in 2016-17 but never finished. It is a 600 page book, am closing in on the final 100 pages. Really happy with the progress so far.</p>
 
-![Money Master The Game by Tony Robbins](/assets/images/img-3.jpg)
-
-
-**One of my new year resolutions was to "read more" and consistently. First book I selected to read was [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) by Tony Robbins which I bought in 2016-17 but never finished. It is a 600 page book, am closing in on the final 100 pages. Really happy with the progress so far.**
 
 | Time Taken To Read      | Book Title | Author | 
 | ----------- | ----------- | ----------- | 
@@ -41,7 +38,9 @@ categories: reading
 9. Have a Dream Bucket that gives you emotional juice and excitement so you can experience the benefits of your investing prowess in the short term and midterm instead of just someday far in the future.
 
 
+<!-- {{page.image}} -->
 
+<!-- ![Money Master The Game by Tony Robbins](/assets/images/img-3.jpg) -->
 
 
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
