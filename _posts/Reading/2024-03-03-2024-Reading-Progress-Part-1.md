@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "2024 Reading Progress Part 1"
-date:   2024-03-03 12:41:10 -0700
+title:  "Reading Journey: Money Master The Game by Tony Robbins"
+#date:   2024-03-03 12:41:10 -0700
 categories: reading
 ---
 
