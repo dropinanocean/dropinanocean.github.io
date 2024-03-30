@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- else -%}
+      {%- assign defaultImage = "/assets/imagees/img-default.jpg" -%}
+      <img src="{{- defaultImage | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
