@@ -14,7 +14,8 @@ Q. How to automatically refresh the page with each change you make to the source
 A. Use the serve command with --livereload option
    > bundle exec jekyll serve --livereload
 
-
+Q. How to add images to a static web page ?
+A. https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
 
 
 

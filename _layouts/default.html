@@ -1,47 +1,125 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
   {%- include head.html -%}
+
   <body>
-    <!-- {{page.url}} -->
-    <!-- <nav>
-      <ul>
-        {% for item in site.data.menu %}
-        <li><a class="{% if page.url == item.link %}active{% endif %}" href={{item.link}}>{{item.title}}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="{{ '/' | relative_url }}">Drop In An Ocean</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Full-page posts -->
+    <div class="post-container">
+      {% for post in site.posts %}
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <span class="icon">📝</span>
+          <div class="post-title">{{ post.title }}</div>
+        </a>
+      {% endfor %}
+    </div>
 
     <style>
-      nav ul {
-        display: flex;
-        list-style: none;
+      /* Page reset */
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+        background: #1a1a2e;   /* dark background */
+        color: white;
+        min-height: 100vh;
       }
-      nav ul li {
-        margin-right: 20px;
+
+      /* Header */
+      .site-header {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        background: #2e3a59;        /* same as cards */
+        padding: 25px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.6); /* subtle separation */
       }
-      nav ul li a {
+
+      .header-container .logo a {
+        color: white;
+        font-size: 1.8em;
+        font-weight: bold;
         text-decoration: none;
-        color: red;
       }
-      nav ul li a:hover{
-        text-decoration: underline;
+
+      /* Container for posts */
+      .post-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 20px 40px 20px;
       }
-      .active {
-        text-decoration: underline;
+
+      /* Individual post card */
+      .post-card {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        max-width: 800px;
+        padding: 20px 25px;
+        background: #2e3a59;       /* solid card background */
+        border-radius: 12px;
+        text-decoration: none;
+        color: white;              /* uniform text color */
+        box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
       }
-    </style> -->
 
-    {%- include header.html -%}
+      /* Remove top radius for first card to connect with header */
+      .post-container .post-card:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+      }
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+      /* Hover effect */
+      .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+      }
 
-    {%- include footer.html -%}
+      /* Icon inside card */
+      .post-card .icon {
+        font-size: 1.5em;
+        margin-right: 15px;
+        color: white;
+      }
 
+      /* Post title */
+      .post-card .post-title {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: white;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .site-header {
+          width: 100%;
+          border-radius: 0;
+          padding: 20px;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+        }
+        .post-card {
+          width: 100%;
+          padding: 15px 20px;
+        }
+        .post-card .post-title {
+          font-size: 1.1em;
+        }
+      }
+    </style>
   </body>
-
 </html>
