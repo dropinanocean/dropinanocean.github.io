@@ -1,34 +1,267 @@
----
-layout: default
----
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {%- include head.html -%}
+  <body style="background:#0f1a2b; color:#e0e0e0; font-family: Arial, sans-serif; margin:0; padding:0; overflow-x:hidden; position:relative;">
 
-  <header class="post-header">
-    {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-    {%- else -%}
-      {%- assign defaultImage = "/assets/images/img-default.jpg" -%}
-      <img src="{{- defaultImage | relative_url -}}" alt="" class="featured-image-post">    
-    {%- endif -%}
-    
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
+    <!-- Background bubbles -->
+    <div class="bubbles-container"></div>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="{{ '/' | relative_url }}">Drop In An Ocean</a>
+        </div>
+      </div>
+    </header>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+    <!-- Post Content -->
+    <div class="post-content fade-in-on-load">
+      <h1>{{ page.title }}</h1>
+      <p class="post-date" data-post-date="{{ page.date | date: "%Y-%m-%dT%H:%M:%S%z" }}"></p>
+      <div class="post-body">
+        {{ content }}
+      </div>
+    </div>
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    <style>
+      body, html {
+        margin:0; padding:0;
+        background:#0f1a2b;
+        color:#e0e0e0;
+        font-family: Arial, sans-serif;
+        min-height:100vh;
+        overflow-x:hidden;
+        position:relative;
+      }
+
+      /* Bubbles */
+      .bubbles-container {
+        position: fixed;
+        top:0; left:0;
+        width:100%;
+        height:100vh;
+        pointer-events:none;
+        z-index:0;
+        overflow:hidden;
+      }
+      .bubble {
+        position:absolute;
+        bottom:-50px;
+        border-radius:50%;
+        opacity:0.3;
+        background: #66c2ff;
+        animation: rise linear infinite;
+      }
+      @keyframes rise {
+        0% { transform: translateY(0) scale(1); opacity:0.3; }
+        50% { opacity:0.5; }
+        100% { transform: translateY(-120vh) scale(1.2); opacity:0; }
+      }
+
+      /* Header */
+      .site-header {
+        width:90%;
+        max-width:1000px;
+        margin:20px auto;
+        padding:25px;
+        border-radius:12px;
+        text-align:center;
+        box-shadow:0 2px 8px rgba(0,0,0,0.6);
+        position:relative;
+        overflow:hidden;
+        z-index:1;
+        background: rgba(30, 58, 95, 0.9);
+      }
+      .site-header .logo a {
+        color:#66c2ff;
+        font-size:2em;
+        font-weight:bold;
+        text-decoration:none;
+        transition: color 0.3s ease;
+      }
+      .site-header .logo a:hover { color:#a0d4ff; }
+
+      /* Post content */
+      .post-content {
+        max-width:800px;
+        margin:40px auto 60px auto;
+        padding:20px;
+        background:#1e3a5f;
+        border-radius:12px;
+        line-height:1.7;
+        position:relative;
+        z-index:1;
+        opacity:0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease, transform 0.8s ease;
+      }
+      .fade-in-on-load { opacity:1; transform:translateY(0); }
+
+      /* Headings */
+      .post-content h1,
+      .post-content h2,
+      .post-content h3,
+      .post-content h4 {
+        color:#66c2ff;
+        transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+      }
+      .post-content h1:hover,
+      .post-content h2:hover,
+      .post-content h3:hover,
+      .post-content h4:hover {
+        color:#a0d4ff;
+        transform: scale(1.03);
+        text-shadow:0 0 8px rgba(160,212,255,0.8);
+      }
+
+      /* Links */
+      .post-content a {
+        color:#00d4ff;
+        text-decoration:underline;
+        transition: color 0.3s ease, text-shadow 0.3s ease;
+      }
+      .post-content a:hover {
+        color:#80f0ff;
+        text-shadow:0 0 5px rgba(0,212,255,0.5);
+      }
+
+      /* Blockquotes */
+      .post-content blockquote {
+        border-left:4px solid #00d4ff;
+        padding-left:15px;
+        color:#b0dfff;
+        background-color:rgba(0,212,255,0.05);
+        margin:20px 0;
+        font-style:italic;
+      }
+
+      /* Code blocks */
+      .post-content pre {
+        background:#0c1523;
+        color:#80f0ff;
+        padding:15px;
+        border-radius:8px;
+        overflow-x:auto;
+      }
+      .post-content code {
+        background:#0c1523;
+        color:#80f0ff;
+        padding:2px 6px;
+        border-radius:4px;
+      }
+
+      /* Lists */
+      .post-content ul,
+      .post-content ol {
+        margin-left:20px;
+        margin-bottom:15px;
+      }
+      .post-content li { margin-bottom:5px; }
+
+      /* Images */
+      .post-content img {
+        max-width:100%;
+        border-radius:8px;
+        margin:15px 0;
+      }
+
+      /* Tables */
+      .post-content table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 0.95em;
+        table-layout: auto;
+        background: #152b45;
+        color: #f0f0f0;
+        border-radius: 8px;
+        overflow: hidden;
+        /* display: block; */
+        overflow-x: auto;
+      }
+      .post-content th {
+        background: #1e4a7d;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 12px;
+        text-align: left;
+        border-bottom: 2px solid #66c2ff;
+        min-width: 80px;
+      }
+      .post-content td {
+        padding: 12px;
+        border-bottom: 1px solid #1e4a7d;
+        word-wrap: break-word;
+        color: #e0e0e0;
+        min-width: 80px;
+      }
+      .post-content tr:nth-child(even) { background: rgba(102,194,255,0.05); }
+      .post-content tr:nth-child(odd) { background: rgba(102,194,255,0.02); }
+      .post-content tr:hover { background: rgba(102,194,255,0.15); }
+
+      /* Hide empty table cells (extra columns) */
+      .post-content td:empty, .post-content th:empty {
+        display: none;
+      }
+
+      /* Post date */
+      .post-date {
+        font-size:0.9em;
+        color:#c0e8ff;
+        background: rgba(102, 194, 255,0.1);
+        padding:3px 8px;
+        border-radius:6px;
+        width:fit-content;
+        margin-bottom:15px;
+      }
+
+      @media(max-width:768px){
+        .post-content { width:90%; margin:20px auto; padding:15px; }
+        .post-content h1 { font-size:1.6em; }
+      }
+    </style>
+
+    <script>
+      // Human-readable date
+      function timeSince(date) {
+        const seconds = Math.floor((new Date() - new Date(date))/1000);
+        let interval = Math.floor(seconds/31536000);
+        if(interval>=1) return interval+" year"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/2592000);
+        if(interval>=1) return interval+" month"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/86400);
+        if(interval>=1) return interval+" day"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/3600);
+        if(interval>=1) return interval+" hour"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/60);
+        if(interval>=1) return interval+" minute"+(interval>1?"s":"")+" ago";
+        return "just now";
+      }
+      const dateElem = document.querySelector('.post-date');
+      if(dateElem) {
+        const dateStr = dateElem.getAttribute('data-post-date');
+        dateElem.textContent = timeSince(dateStr);
+      }
+
+      // Floating bubbles
+      const bubbleContainer = document.querySelector('.bubbles-container');
+      const numBubbles = 25;
+      for(let i=0;i<numBubbles;i++){
+        const bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        const size=Math.random()*20+10;
+        bubble.style.width=`${size}px`;
+        bubble.style.height=`${size}px`;
+        bubble.style.left=`${Math.random()*100}%`;
+        bubble.style.animationDuration=`${5 + Math.random()*10}s`;
+        bubble.style.animationDelay=`${Math.random()*5}s`;
+        bubbleContainer.appendChild(bubble);
+      }
+
+      window.addEventListener('load', ()=>{
+        document.querySelector('.post-content').classList.add('fade-in-on-load');
+      });
+    </script>
+  </body>
+</html>
