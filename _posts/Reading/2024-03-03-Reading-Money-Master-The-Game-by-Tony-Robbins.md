@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Money Master The Game by Tony Robbins"
+title:  "Reading: Money Master The Game by Tony Robbins"
 image: /assets/images/img-3.jpg
 # excerpt_ separator: <!--more-->
 #date:   2024-03-03 12:41:10 -0700
@@ -13,9 +13,16 @@ categories: reading
 | ----------- | ----------- | ----------- | 
 | January - March 2024      | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/)| Tony Robbins 
 
-**[Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) Key Takeaways:**
 
-1. Put atleast 10% of the your earnings aside for investment. Power of compounding over time, will baloon your savings. Make it automatic as much as possible.
+| **Time Taken To Read** | **Book Title** | **Author** |
+|:----------------------:|:--------------:|:----------:|
+| January - March 2024 | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) | Tony Robbins |
+
+---
+
+### Key Takeaways from [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/)
+
+1. Put at least 10% of your earnings aside for investment. The power of compounding over time will balloon your savings. Make it automatic as much as possible.
 2. Asset Allocation:
     1. By Class (Cash, GICs, Bonds, Pension, Real Estate, Stocks)
     2. By Geography (Domestic, United States, International and Emerging Markets)
@@ -24,7 +31,7 @@ categories: reading
 4. Quote by Sir John Templeton:
 >**"Bull markets are born on pessimism, grow on skepticism, mature on optimism, and die on euphoria. The time of maximum pessimism is the best time to buy, and the time of maximum optimism is the best time to sell—Sir John Templeton"**
 5. Buy when markets are down
-6. Rebalance by selling your runners and buying laggards to be inline with your asset allocation, atleast once a year.
+6. Rebalance by selling your runners and buying laggards to be in line with your asset allocation, at least once a year.
 7. You don’t want to hesitate to get in the market trying to have perfect timing; instead, use dollar-cost averaging and know that volatility can be your friend, providing opportunities to buy investments cheaply when the market is down. This technique will increase your portfolio’s value when the markets come back up.
 8. Dream Levels: 
     1.  Financial Security

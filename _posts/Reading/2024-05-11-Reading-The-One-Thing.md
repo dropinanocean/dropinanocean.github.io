@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FINALLY read \"THE ONE THING\""
+title:  "Reading: FINALLY read \"THE ONE THING\""
 image: /assets/images/reading-the-one-thing-1.jpg
 # excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700
@@ -13,34 +13,30 @@ Going forward, I do intend to work on the habit of "putting my phone downstairs 
 
 <!-- My next reading goal is to finish, [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) by Gary Keller and Jay Papasan -->
 
-**2024 Reading Journey is as follows:**
+## 2024 Reading Journey
 
+| **Time Taken To Read** | **Book Title** | **Author** |
+|:----------------------:|:--------------:|:----------:|
+| January - March 2024 | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) | Tony Robbins |
+| March - March 2024 | [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) | Perumal Murugan |
+| March - May 2024 | [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) | Gary Keller and Jay Papasan |
 
-| Time Taken To Read      | Book Title | Author | 
-| ----------- | ----------- | ----------- | 
-| January - March 2024      | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/)| Tony Robbins 
-| March - March 2024 | [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) | Perumal Murugan
-| March - May 2024 | [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) | Gary Keller and Jay Papasan
+---
 
-Here is the rest of the summary of [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776)
+### Summary
 
-**SUMMARY**
+One quote that sums up the book for me is:
 
-One quote that sums up the book for me is: 
+> A life worth living might be measured in many ways, but the one way that stands above all others is living a life of no regrets.
 
->A life worth living might be measured in many ways, but the one way that stands above all others is living a life of no regrets.
+---
 
-**Chapter 10: The Focusing Question**
+### Key Points
 
-The quality of any answer is directly determined by the quality of the question. Ask the wrong question, get the wrong answer. Ask the right question, get the right answer. Ask the most powerful question possible, and the answer can be life-altering.
-
-One of the most empowering moments of Keller’s life came when he realized that life is a question and how we live it is our answer.
-
-The Focusing Question can lead you to answer not only “big picture” questions (Where am I going? What target should I aim for?) but also “small focus” ones as well (What must I do right now to be on the path to getting the big picture? Where’s the bulls-eye?).
-
-To stay on track for the best possible day, month, year, or career, you must keep asking the Focusing Question.
-
->The Focusing Question collapses all possible questions into one: “What’s the ONE Thing I can do such that by doing it everything else will be easier or unnecessary?”**
+- The quality of any answer is directly determined by the quality of the question. Ask the wrong question, get the wrong answer. Ask the right question, get the right answer. Ask the most powerful question possible, and the answer can be life-altering.
+- The Focusing Question can lead you to answer not only big picture questions (Where am I going? What target should I aim for?) but also small focus ones as well (What must I do right now to be on the path to getting the big picture? Where’s the bulls-eye?).
+- To stay on track for the best possible day, month, year, or career, you must keep asking the Focusing Question.
+- The Focusing Question collapses all possible questions into one: “What’s the ONE Thing I can do such that by doing it everything else will be easier or unnecessary?”
 
 **Chapter 11: The Success Habit**
 

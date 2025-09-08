@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading: The ONE Thing: The Surprisingly Simple Truth About Extraordinary Results by Gary Keller and Jay Papasan"
+title:  "Reading: The ONE Thing by Gary Keller and Jay Papasan"
 image: /assets/images/reading-the-one-thing-1.jpg
 # excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700
@@ -18,11 +18,11 @@ categories: reading
 **2024 Reading Journey is as follows:**
 
 
-| Time Taken To Read      | Book Title | Author | 
-| ----------- | ----------- | ----------- | 
-| January - March 2024      | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/)| Tony Robbins 
-| March - March 2024 | [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) | Perumal Murugan
-| March - April 2024 | [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) | Gary Keller and Jay Papasan
+| **Time Taken To Read** | **Book Title** | **Author** |
+|:----------------------:|:--------------:|:----------:|
+| January - March 2024 | [Money Master The Game](https://www.amazon.ca/MONEY-Master-Game-Financial-Freedom/dp/1476757860/) | Tony Robbins |
+| March - March 2024 | [One Part Woman](https://www.amazon.ca/One-Part-Woman-Perumal-Murugan-ebook/dp/B07SRDX289) | Perumal Murugan |
+| March - April 2024 | [The One Thing](https://www.amazon.ca/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) | Gary Keller and Jay Papasan |
 
 
 
