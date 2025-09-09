@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', fadeInPosts);
   window.addEventListener('load', fadeInPosts);
 
-  // Post date relative
+  // Post date only 'ago'
   function timeSince(date) {
     var seconds = Math.floor((new Date() - new Date(date))/1000);
     var interval = Math.floor(seconds/31536000);
@@ -64,7 +64,10 @@ window.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.post-card').forEach(function(card) {
     var dateStr = card.getAttribute('data-post-date');
     var dateElem = card.querySelector('.post-date');
-    if(dateStr && dateElem) dateElem.textContent = timeSince(dateStr);
+    if(dateStr && dateElem) {
+      var ago = timeSince(dateStr);
+      dateElem.textContent = ago;
+    }
   });
 });
 
@@ -81,20 +84,23 @@ window.addEventListener('DOMContentLoaded', function() {
   var dateElem = document.querySelector('.post-date');
   if(dateElem) {
     var dateStr = dateElem.getAttribute('data-post-date');
-    function timeSince(date) {
-      var seconds = Math.floor((new Date() - new Date(date))/1000);
-      var interval = Math.floor(seconds/31536000);
-      if(interval>=1) return interval+" year"+(interval>1?"s":"")+" ago";
-      interval=Math.floor(seconds/2592000);
-      if(interval>=1) return interval+" month"+(interval>1?"s":"")+" ago";
-      interval=Math.floor(seconds/86400);
-      if(interval>=1) return interval+" day"+(interval>1?"s":"")+" ago";
-      interval=Math.floor(seconds/3600);
-      if(interval>=1) return interval+" hour"+(interval>1?"s":"")+" ago";
-      interval=Math.floor(seconds/60);
-      if(interval>=1) return interval+" minute"+(interval>1?"s":"")+" ago";
-      return "just now";
+    if(dateStr) {
+      function timeSince(date) {
+        var seconds = Math.floor((new Date() - new Date(date))/1000);
+        var interval = Math.floor(seconds/31536000);
+        if(interval>=1) return interval+" year"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/2592000);
+        if(interval>=1) return interval+" month"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/86400);
+        if(interval>=1) return interval+" day"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/3600);
+        if(interval>=1) return interval+" hour"+(interval>1?"s":"")+" ago";
+        interval=Math.floor(seconds/60);
+        if(interval>=1) return interval+" minute"+(interval>1?"s":"")+" ago";
+        return "just now";
+      }
+      var ago = timeSince(dateStr);
+      dateElem.textContent = ago;
     }
-    dateElem.textContent = timeSince(dateStr);
   }
 });
