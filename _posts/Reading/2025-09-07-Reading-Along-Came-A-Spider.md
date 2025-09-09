@@ -2,7 +2,7 @@
 layout: post
 title:  "Reading: Along Came a Spider by James Patterson"
 image: /assets/images/alongcameaspider.jpg
-date:   2025-09-07 12:41:10 -0700
+# date: 2025-09-07 12:41:10 -0700
 categories: reading
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Reading: One Good Deed by David Baldacci"
 image: /assets/images/onegooddeed.jpg
-date:   2025-01-25 12:41:10 -0700
+# date:   2025-01-25 12:41:10 -0700
 categories: reading
 ---
 
