@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading: One Part Woman by Perumal Murugan"
+title:  "One Part Woman by Perumal Murugan"
 image: /assets/images/img-2.jpg
 # excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700

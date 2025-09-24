@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Home: myQ Smart Garage Set-up"
+title:  "myQ Smart Garage Set-up"
 image: /assets/images/myq.jpg
 categories: home
 ---
 
-## Home: myQ Smart Garage Set-up
+## myQ Smart Garage Set-up
 
 ---
 

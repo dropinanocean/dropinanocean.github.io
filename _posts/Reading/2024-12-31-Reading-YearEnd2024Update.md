@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading: 2024 Year End Update"
+title:  "2024 Year End Update"
 image: /assets/images/books.jpg
 # excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700

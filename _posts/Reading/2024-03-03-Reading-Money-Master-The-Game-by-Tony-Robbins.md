@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading: Money Master The Game by Tony Robbins"
+title:  "Money Master The Game by Tony Robbins"
 image: /assets/images/img-3.jpg
 # excerpt_ separator: <!--more-->
 #date:   2024-03-03 12:41:10 -0700

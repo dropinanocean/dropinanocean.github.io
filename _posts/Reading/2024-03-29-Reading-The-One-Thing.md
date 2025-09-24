@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading: The ONE Thing by Gary Keller and Jay Papasan"
+title:  "The ONE Thing by Gary Keller and Jay Papasan"
 image: /assets/images/reading-the-one-thing-1.jpg
 # excerpt_ separator: <!--more-->
 # date:   2024-03-03 12:41:10 -0700
