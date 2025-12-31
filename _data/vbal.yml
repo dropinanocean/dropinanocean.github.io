@@ -1,0 +1,16 @@
+goal: 1000
+goal_year: 2026
+
+accounts:
+  tfsaMe:
+    name: "My TFSA"
+    shares: 8.2
+  tfsaSpouse:
+    name: "My Spouse TFSA"
+    shares: 18.8
+  rrspMe:
+    name: "My RRSP"
+    shares: 8
+  resp:
+    name: "Our Kids RESP"
+    shares: 3
