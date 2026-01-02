@@ -4,7 +4,7 @@ goal_year: 2026
 accounts:
   tfsaMe:
     name: "My TFSA"
-    shares: 8.2
+    shares: 25.3
   tfsaSpouse:
     name: "My Spouse TFSA"
     shares: 18.8
