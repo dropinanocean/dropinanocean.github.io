@@ -10,7 +10,7 @@ accounts:
     shares: 18.8
   rrspMe:
     name: "My RRSP"
-    shares: 8
+    shares: 9
   resp:
     name: "Our Kids RESP"
     shares: 3
