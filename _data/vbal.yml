@@ -7,10 +7,10 @@ accounts:
     shares: 25.3
   tfsaSpouse:
     name: "My Spouse TFSA"
-    shares: 18.8
+    shares: 26.9
   rrspMe:
     name: "My RRSP"
-    shares: 9
+    shares: 10
   resp:
     name: "Our Kids RESP"
     shares: 3
