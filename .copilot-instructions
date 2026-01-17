@@ -1,0 +1,54 @@
+# Copilot Instructions for Drop In An Ocean Blog
+
+## Project Overview
+This is a Jekyll-based personal blog hosted on GitHub Pages. The blog covers multiple categories including Finance, French language learning, Home automation, and Reading reviews.
+
+**Blog Title:** Drop In An Ocean  
+**Tech Stack:** Jekyll, GitHub Pages, YAML, Markdown
+
+## Key Directories
+- `_posts/` - Blog post content organized by category (Finance, French, Home, Reading)
+- `_layouts/` - Jekyll layout templates (default, home, page, post)
+- `_data/` - Configuration data files (menu.yml, vbal.yml)
+- `_sass/` - Stylesheet organization
+- `assets/` - Images, CSS, and JavaScript files
+- `_site/` - Generated site (do not edit directly)
+
+## Post Structure
+Posts are organized in subdirectories by category:
+- `_posts/Finance/` - Finance-related posts
+- `_posts/French/` - French language posts
+- `_posts/Home/` - Home automation/improvement posts
+- `_posts/Reading/` - Book reviews and reading notes
+
+**File naming convention:** `YYYY-MM-DD-Category-Title.md`
+
+## Common Tasks
+1. **Create a new post** - Add markdown file to appropriate category folder in `_posts/`
+2. **Update menu** - Edit `_data/menu.yml`
+3. **Modify styles** - Edit files in `_sass/` or `assets/css/`
+4. **Update configuration** - Edit `_config.yml` for site settings
+
+## Jekyll Front Matter Template
+```yaml
+---
+layout: post
+title: "Your Title"
+date: YYYY-MM-DD HH:MM:SS
+categories: [Category]
+---
+```
+
+## Guidelines for Modifications
+- Always maintain the YAML front matter in posts
+- Use relative paths for internal links
+- Keep the `_site/` directory clean - it's auto-generated
+- Test changes locally with `bundle exec jekyll serve`
+- Update `_config.yml` sparingly - restart server after changes
+- Use consistent date formatting (YYYY-MM-DD)
+
+## Important Files to Not Delete
+- `_config.yml` - Site configuration
+- `Gemfile` - Ruby dependencies
+- `.gitignore` - Git settings
+- Layout files in `_layouts/`
