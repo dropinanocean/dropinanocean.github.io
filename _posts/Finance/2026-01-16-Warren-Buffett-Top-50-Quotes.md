@@ -2,7 +2,7 @@
 layout: post
 title: "Warren Buffett Top 50 Quotes"
 categories: finance
-published: true
+published: false
 ---
 
 ## 💰 Warren Buffett's Top 50 Investment & Life Wisdom Quotes

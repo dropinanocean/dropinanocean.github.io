@@ -2,7 +2,7 @@
 layout: post
 title: "Charlie Munger Top 50 Quotes"
 categories: finance
-published: true
+published: false
 ---
 
 ## 🧠 Charlie Munger's Top 50 Investment & Wisdom Quotes
