@@ -4,7 +4,7 @@ goal_year: 2026
 accounts:
   Family:
     name: "Family"
-    shares: 792.4939
+    shares: 798.005
   # tfsaSpouse:
   #   name: "My Spouse TFSA"
   #   shares: 26.9
