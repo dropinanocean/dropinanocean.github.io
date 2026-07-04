@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "Reading: Moral Compass by Danielle Steel"
+title:  "Moral Compass by Danielle Steel"
 image: /assets/images/img-2.jpg
 categories: reading
 ---
