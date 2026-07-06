@@ -2,7 +2,10 @@
 layout: default
 ---
         <div class="posts-grid">
-          {% for post in site.posts %}
+          {% assign pinned_posts = site.posts | where: "pinned", true %}
+          {% assign unpinned_posts = site.posts | where_exp: "p", "p.pinned != true" %}
+          {% assign posts = pinned_posts | concat: unpinned_posts %}
+          {% for post in posts %}
         <a class="post-card" 
           href="{{ post.url | relative_url }}" 
           data-post-date="{{ post.date | date_to_xmlschema }}">
