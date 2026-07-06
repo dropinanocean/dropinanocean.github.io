@@ -1,8 +1,0 @@
-goal: 1000
-goal_year: 2026
-symbol: "VXC"
-
-accounts:
-  Family:
-    name: "Family"
-    shares: 0
