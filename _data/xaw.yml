@@ -3,14 +3,13 @@ goal: 1000
 accounts:
   Family:
     name: "Family"
-    shares: 1032.2
+    shares: 12.4021
   # tfsaSpouse:
   #   name: "My Spouse TFSA"
-  #   shares: 26.9
+  #   shares: 0
   # rrspMe:
   #   name: "My RRSP"
-  #   shares: 10
+  #   shares: 0
   # resp:
   #   name: "Our Kids RESP"
-  #   shares: 11
- 
+  #   shares: 0
