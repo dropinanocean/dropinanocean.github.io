@@ -3,7 +3,7 @@ layout: post
 title: "VBAL Holdings Tracker"
 categories: finance
 published: true
-pinned: true
+pinned: false
 ---
 
 <!-- celebration banner removed -->
