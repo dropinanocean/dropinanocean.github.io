@@ -31,6 +31,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
+# remote_theme: owner-name/repo-name
 # remote_theme: jekyll/minima
 # minima:
 #  skin: dark
@@ -38,7 +39,7 @@ theme: minima
 # theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-    # - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -7,10 +7,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.3"
+# Remove jekyll gem - github-pages includes it with compatible versions
+# gem "jekyll", "~> 4.3.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+# gem "minima", "~> 2.5"
+gem "github-pages", group: :jekyll_plugins
+gem "webrick", "~> 1.7"
 # gem 'jekyll-theme-hacker', '~> 0.2.0'
 # gem "jekyll-remote-theme"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -20,6 +23,7 @@ gem "minima", "~> 2.5"
 # gem 'jekyll-theme-cayman', '~> 0.2.0'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-remote-theme"
   # gem 'jekyll-remote-theme', '~> 0.4.3'
 end
 
