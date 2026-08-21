@@ -32,8 +32,8 @@ A strong quarter with lump sum + steady contributions. Overall, I added a total 
 ## 📌 Asset allocation note
 
 - Follow-up from last update: I achieved goal of 1000+ shares of VBAL.[VBAL Tracker](https://dropinanocean.github.io/finance/2025/12/31/Finance-17-VBAL-Tracker.html)
-- Set up a new goal of 100+ shares of XAW which is market cap weighted all equity ETF except Canada. [XAW Tracker](https://dropinanocean.github.io/finance/2026/07/10/Finance-XAW-Tracker.html)
-- A mistake I made this quarter is too sell 217 shares of VAB at 23.11 for a net of $5015.87 and buying 334 shares of Telus at 14.98 for a net of $5003.32. Ideally, I should have left it alone, or just added to the VBAL or XAW Tracker Goal. As of today, T is trading at 13.51. Kicking myself for this, as this was not part of the overarching plan, to invest in good broad market index funds only.   
+- Set up a new goal of 1000+ shares of XAW which is market cap weighted all equity ETF except Canada. [XAW Tracker](https://dropinanocean.github.io/finance/2026/07/10/Finance-XAW-Tracker.html)
+- A mistake I made this quarter is too sell 217 shares of VAB at 23.11 for a net of $5015.87 and buying 334 shares of Telus at 14.98 for a net of $5003.32. Ideally, I should have left it alone, or just added to the VBAL or XAW Tracker Goal. As of today, T is trading at 13.51. Kicking myself for this, as this was not part of the overarching plan which is to invest in good broad market index funds only.   
 
 
 ## 📊 Portfolio performance snapshot
