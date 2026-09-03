@@ -21,8 +21,8 @@ In the Psychology of Money, Morgan Housel teaches you how to have a better relat
 
 | Completion Date | Book Title    | Author         |
 |------------------|----------------|----------------|
-| July 2026        | Moral Compass  | Danielle Steel |
-| July 2026        | Good Company   | Arthur M Blank |
-| August 2026        | Pick a Color   | Souvankham Thammavongsa |
-| August 2026        | Elon Musk      | Walter Isaacson |
-| September 2026        | The Psychology of Money      | Morgan Housel |
+| July 2026        | [Moral Compass](/reading/2026/07/04/Moral-Compass.html)  | Danielle Steel |
+| July 2026        | [Good Company](/reading/2026/07/06/Good-Company.html)   | Arthur M Blank |
+| August 2026        | [Pick a Color](/reading/2026/08/13/Pick-A-Color.html)   | Souvankham Thammavongsa |
+| August 2026        | [Elon Musk](/reading/2026/08/24/Elon-Musk.html)      | Walter Isaacson |
+| September 2026        | [The Psychology of Money](/reading/2026/09/03/The-Psychology-Of-Money.html)      | Morgan Housel |

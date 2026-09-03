@@ -18,6 +18,6 @@ Set over a single ordinary day at a nail salon, the narrator Ning—a former box
 
 | Completion Date | Book Title    | Author         |
 |------------------|----------------|----------------|
-| July 2026        | Moral Compass  | Danielle Steel |
-| July 2026        | Good Company   | Arthur M Blank |
-| August 2026        | Pick a Color   | Souvankham Thammavongsa |
+| July 2026        | [Moral Compass](/reading/2026/07/04/Moral-Compass.html)  | Danielle Steel |
+| July 2026        | [Good Company](/reading/2026/07/06/Good-Company.html)   | Arthur M Blank |
+| August 2026        | [Pick a Color](/reading/2026/08/13/Pick-A-Color.html)   | Souvankham Thammavongsa |

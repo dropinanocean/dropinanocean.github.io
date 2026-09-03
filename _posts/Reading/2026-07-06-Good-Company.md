@@ -16,5 +16,5 @@ Along the way, Blank lays out the core values that guided him and cofounder Bern
 
 | Completion Date | Book Title    | Author         |
 |------------------|----------------|----------------|
-| July 2026        | Moral Compass  | Danielle Steel |
-| July 2026        | Good Company   | Arthur M Blank |
+| July 2026        | [Moral Compass](/reading/2026/07/04/Moral-Compass.html)  | Danielle Steel |
+| July 2026        | [Good Company](/reading/2026/07/06/Good-Company.html)   | Arthur M Blank |

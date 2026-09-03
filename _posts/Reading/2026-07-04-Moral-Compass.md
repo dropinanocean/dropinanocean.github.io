@@ -11,7 +11,7 @@ categories: reading
 
 | Completion Date | Book Title | Author |
 | --------------- | ---------- | ------ |
-| July 2026       | Moral Compass | Danielle Steel |
+| July 2026       | [Moral Compass](/reading/2026/07/04/Moral-Compass.html) | Danielle Steel |
 
 ---
 
