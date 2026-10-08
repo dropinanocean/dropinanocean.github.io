@@ -3,7 +3,7 @@ goal: 1000
 accounts:
   Family:
     name: "Family"
-    shares: 102.7673
+    shares: 146.6698
   # tfsaSpouse:
   #   name: "My Spouse TFSA"
   #   shares: 0
