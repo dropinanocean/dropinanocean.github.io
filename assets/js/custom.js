@@ -129,10 +129,22 @@ window.addEventListener('DOMContentLoaded', function() {
   if (!select) return;
   var themes = Array.prototype.map.call(select.options, function(o) { return o.value; });
 
+  // Size the dropdown to the chosen theme's name, not the longest one in the list.
+  var measure = document.createElement('canvas').getContext('2d');
+  function fitSelect() {
+    var cs = getComputedStyle(select);
+    measure.font = cs.fontWeight + ' ' + cs.fontSize + ' ' + cs.fontFamily;
+    var label = select.options[select.selectedIndex] ? select.options[select.selectedIndex].text : '';
+    var pad = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+    select.style.width = Math.ceil(measure.measureText(label).width + pad + 4) + 'px';
+  }
+
   function setTheme(name) {
     root.setAttribute('data-theme', name);
     select.value = name;
     try { localStorage.setItem('site-theme', name); } catch (e) {}
+    // fonts change with the theme, so re-measure once they've applied
+    requestAnimationFrame(fitSelect);
   }
 
   // A saved theme that no longer exists falls back to the site default.
@@ -140,6 +152,8 @@ window.addEventListener('DOMContentLoaded', function() {
     setTheme(root.getAttribute('data-default-theme') || themes[0]);
   }
   select.value = root.getAttribute('data-theme');
+  fitSelect();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitSelect);
   select.addEventListener('change', function() { setTheme(select.value); });
 
   document.addEventListener('keydown', function(e) {

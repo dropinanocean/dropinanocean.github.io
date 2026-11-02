@@ -46,10 +46,10 @@ body {
   flex-direction:column;
   align-items:center;
   text-align:center;
-  gap:12px;
+  gap:8px;
   width:100%;
   box-sizing:border-box;
-  padding:14px 30px;
+  padding:10px 30px 12px;
   background: var(--header-bg);
   box-shadow: var(--shadow);
   /* cancel leftovers from the minima theme */
@@ -59,7 +59,7 @@ body {
 .site-header .site-title {
   color:var(--header-text, var(--accent));
   font-family: var(--title-font);
-  font-size:1.6em;
+  font-size:1.45em;
   font-weight:bold;
   text-decoration:none;
   line-height:1.3;
@@ -69,24 +69,57 @@ body {
   transition: color 0.3s ease;
 }
 .site-header .site-title:hover { color:var(--accent-hover); }
-.site-nav { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; float:none; line-height:1.2; }
-.menu-btn {
-  padding:8px 18px;
-  border-radius:var(--radius);
+/* Menu bar: one compact segmented strip holding the links and the theme picker */
+.menu-bar {
+  display:flex;
+  align-items:center;
+  gap:4px;
+  max-width:100%;
+  box-sizing:border-box;
+  padding:4px;
   background:var(--btn-bg);
-  /* themes can set --btn-text; otherwise buttons use the accent colour */
-  color:var(--btn-text, var(--accent));
-  font-family: inherit;
-  font-size: 0.95em;
-  cursor: pointer;
-  text-decoration:none;
-  font-weight:bold;
   border:1px solid var(--btn-border);
-  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  border-radius:calc(var(--radius) + 4px);
+  box-shadow:0 1px 3px rgba(0,0,0,0.12);
+}
+.site-nav {
+  display:flex;
+  gap:2px;
+  float:none;
+  line-height:1.2;
+  min-width:0;
+}
+.menu-btn {
+  position:relative;
+  padding:7px 14px;
+  border-radius:var(--radius);
+  background:transparent;
+  /* themes can set --btn-text; otherwise links use the accent colour */
+  color:var(--btn-text, var(--accent));
+  font-family:inherit;
+  font-size:0.9em;
+  font-weight:600;
+  letter-spacing:0.01em;
+  white-space:nowrap;
+  text-decoration:none;
+  border:0;
+  cursor:pointer;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
 }
 .site-nav .menu-btn { margin:0; line-height:1.2; }
-.menu-btn:hover { background:var(--surface-hover); color:var(--accent-hover); transform:translateY(-2px); }
-.menu-btn.active { background:var(--accent); color:var(--btn-active-text); border-color:var(--accent); }
+.menu-btn:hover { background:var(--surface-hover); color:var(--accent-hover); text-decoration:none; }
+.menu-btn:focus-visible, .theme-switch select:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.menu-btn.active {
+  background:var(--accent);
+  color:var(--btn-active-text);
+  box-shadow:0 1px 6px rgba(0,0,0,0.25);
+}
+.menu-divider {
+  flex:0 0 1px;
+  align-self:stretch;
+  margin:4px 2px;
+  background:var(--btn-border);
+}
 
 .site-main {
   width:100%;
@@ -314,24 +347,32 @@ body {
   }
 
   /* Compact header that scrolls away, leaving the whole screen for reading */
-  .site-header { position:relative; gap:10px; padding:12px 0; }
-  .site-header .site-title { font-size:1.3em; padding:0 16px; }
+  .site-header { position:relative; gap:8px; padding:10px 12px 12px; }
+  .site-header .site-title { font-size:1.25em; }
 
-  /* Menu buttons in one swipeable row */
+  /* Menu bar spans the width; links swipe sideways, theme picker stays put */
+  .menu-bar { width:100%; }
   .site-nav {
+    flex:1 1 auto;
     flex-wrap:nowrap;
-    justify-content:flex-start;
-    width:100%;
     overflow-x:auto;
-    padding:2px 16px 6px;
-    box-sizing:border-box;
     scrollbar-width:none;
     -webkit-overflow-scrolling:touch;
+    /* soft fade at the edges hints that there are more links to swipe to */
+    -webkit-mask-image:linear-gradient(to right, transparent 0, #000 10px, #000 calc(100% - 18px), transparent 100%);
+    mask-image:linear-gradient(to right, transparent 0, #000 10px, #000 calc(100% - 18px), transparent 100%);
   }
   .site-nav::-webkit-scrollbar { display:none; }
-  .menu-btn { flex:0 0 auto; padding:10px 16px; }
+  .menu-btn { flex:0 0 auto; padding:9px 12px; }
 
-  .theme-switch select { padding:8px 10px; font-size:16px; } /* 16px stops iOS zooming in */
+  /* Theme picker shrinks to just the palette icon + arrow; the list still shows names */
+  .theme-switch select {
+    width:52px !important;
+    padding-left:30px;
+    padding-right:0;
+    color:transparent;
+    font-size:16px; /* 16px stops iOS zooming in */
+  }
 
   .site-main { padding:12px; }
   .posts-grid { gap:12px; margin:8px 0 24px; }
@@ -339,16 +380,42 @@ body {
 }
 
 /* Theme switcher */
-.theme-switch { display:flex; align-items:center; gap:6px; }
-.theme-switch select {
-  padding:6px 10px;
+.theme-switch {
+  position:relative;
+  display:flex;
+  align-items:center;
+  flex:0 0 auto;
   border-radius:var(--radius);
-  background:var(--btn-bg);
-  color:var(--text);
-  border:1px solid var(--btn-border);
-  font-family:inherit;
-  cursor:pointer;
+  transition: background 0.2s ease;
 }
+.theme-switch:hover { background:var(--surface-hover); }
+.theme-icon {
+  position:absolute;
+  left:10px;
+  display:flex;
+  color:var(--btn-text, var(--accent));
+  pointer-events:none;
+}
+.theme-switch select {
+  -webkit-appearance:none;
+  appearance:none;
+  padding:7px 26px 7px 32px;
+  border:0;
+  border-radius:var(--radius);
+  background:transparent;
+  color:var(--btn-text, var(--accent));
+  font-family:inherit;
+  font-size:0.9em;
+  font-weight:600;
+  cursor:pointer;
+  text-overflow:ellipsis;
+  /* small chevron drawn in the link colour */
+  background-image:linear-gradient(45deg, transparent 50%, var(--btn-text, var(--accent)) 50%), linear-gradient(135deg, var(--btn-text, var(--accent)) 50%, transparent 50%);
+  background-position:calc(100% - 14px) 52%, calc(100% - 9px) 52%;
+  background-size:5px 5px, 5px 5px;
+  background-repeat:no-repeat;
+}
+.theme-switch select option, .theme-switch select optgroup { background:var(--surface); color:var(--text); }
 .visually-hidden {
   position:absolute; width:1px; height:1px; overflow:hidden;
   clip:rect(0 0 0 0); white-space:nowrap;

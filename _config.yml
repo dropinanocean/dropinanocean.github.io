@@ -32,7 +32,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Default look for the whole site. Any "name" from _data/themes.yml
 # (24 themes, e.g. ocean, cayman, hacker, dracula, nord). A page can override it with "theme: <name>"
 # in its front matter. Visitors can switch with the header dropdown or the T key.
-site_theme: ocean
+site_theme: hacker
 
 # Build settings
 theme: minima

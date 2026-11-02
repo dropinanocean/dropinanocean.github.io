@@ -6,7 +6,8 @@
 
     <header class="site-header">
       <a class="site-title" href="{{ '/' | relative_url }}">Drop In An Ocean</a>
-      <nav class="site-nav">
+      <div class="menu-bar">
+      <nav class="site-nav" aria-label="Main menu">
         {% for item in site.data.menu %}
           {% assign active = false %}
           {% if item.link == '/' and page.url == '/' %}{% assign active = true %}
@@ -16,7 +17,9 @@
           <a class="menu-btn{% if active %} active{% endif %}" href="{{ item.link | relative_url }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
+      <span class="menu-divider" aria-hidden="true"></span>
       {% include theme-switcher.html %}
+      </div>
     </header>
 
     <main class="site-main">
