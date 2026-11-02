@@ -1,20 +1,7 @@
 ---
 layout: default
 ---
-        <div class="posts-grid">
-          {% assign pinned_posts = site.posts | where: "pinned", true %}
-          {% assign unpinned_posts = site.posts | where_exp: "p", "p.pinned != true" %}
-          {% assign posts = pinned_posts | concat: unpinned_posts %}
-          {% for post in posts %}
-        <a class="post-card" 
-          href="{{ post.url | relative_url }}" 
-          data-post-date="{{ post.date | date_to_xmlschema }}">
-          <div class="post-title">{{ post.title }}</div>
-          <div class="post-date"></div>
-        </a>    
-          {% endfor %}
-        </div>
-
-        <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-        <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-  </body>
+{% assign pinned_posts = site.posts | where: "pinned", true %}
+{% assign unpinned_posts = site.posts | where_exp: "p", "p.pinned != true" %}
+{% assign all_posts = pinned_posts | concat: unpinned_posts %}
+{% include post-grid.html posts=all_posts %}

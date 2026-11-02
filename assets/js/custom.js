@@ -104,3 +104,51 @@ window.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+
+// Wrap post/page tables so wide ones scroll sideways on phones.
+window.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.post-content table, .page-content table').forEach(function(table) {
+    if (table.parentElement.classList.contains('table-scroll')) return;
+    var wrap = document.createElement('div');
+    wrap.className = 'table-scroll';
+    table.parentNode.insertBefore(wrap, table);
+    wrap.appendChild(table);
+  });
+  // Keep the active menu button in view when the menu is a swipeable row.
+  var active = document.querySelector('.site-nav .menu-btn.active');
+  var nav = document.querySelector('.site-nav');
+  if (active && nav && nav.scrollWidth > nav.clientWidth) {
+    nav.scrollLeft = active.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
+  }
+});
+
+// Theme switcher: dropdown in the header, or press "T" to cycle.
+window.addEventListener('DOMContentLoaded', function() {
+  var root = document.documentElement;
+  var select = document.getElementById('theme-select');
+  if (!select) return;
+  var themes = Array.prototype.map.call(select.options, function(o) { return o.value; });
+
+  function setTheme(name) {
+    root.setAttribute('data-theme', name);
+    select.value = name;
+    try { localStorage.setItem('site-theme', name); } catch (e) {}
+  }
+
+  // A saved theme that no longer exists falls back to the site default.
+  if (themes.indexOf(root.getAttribute('data-theme')) === -1) {
+    setTheme(root.getAttribute('data-default-theme') || themes[0]);
+  }
+  select.value = root.getAttribute('data-theme');
+  select.addEventListener('change', function() { setTheme(select.value); });
+
+  document.addEventListener('keydown', function(e) {
+    var tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.key === 't' || e.key === 'T') {
+      var i = themes.indexOf(root.getAttribute('data-theme'));
+      var step = e.shiftKey ? -1 : 1;
+      setTheme(themes[(i + step + themes.length) % themes.length]);
+    }
+  });
+});

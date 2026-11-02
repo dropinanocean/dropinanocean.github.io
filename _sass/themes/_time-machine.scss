@@ -1,0 +1,31 @@
+// Time Machine: inspired by pages-themes/time-machine. Colours approximate the original.
+[data-theme="time-machine"] {
+  --bg: #2f2e3e;
+  --text: #d9d9e0;
+  --muted: #9d9cb3;
+  --accent: #ff6a95;
+  --accent-hover: #7fc6ff;
+  --link: #7fc6ff;
+  --link-hover: #ff6a95;
+  --surface: #3b3a4e;
+  --surface-hover: #4a4862;
+  --surface-alt: #3b3a4e;
+  --header-bg: #24232f;
+  --header-text: #ff6a95;
+  --btn-bg: #3b3a4e;
+  --btn-border: #5a5878;
+  --btn-active-text: #2f2e3e;
+  --code-bg: #232230;
+  --code-text: #7fc6ff;
+  --table-head: #4a4862;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #ff6a95;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 14px;
+  --card-width: 300px;
+  --bubbles: block;
+  --bubble-color: #ff6a95;
+  color-scheme: dark;
+}

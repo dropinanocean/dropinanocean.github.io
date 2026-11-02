@@ -1,0 +1,75 @@
+# Themes shown in the header switcher (and cycled with the "T" key).
+# "name" must match the [data-theme="..."] in _sass/themes/_<name>.scss
+# "group" is the heading the theme appears under in the dropdown.
+- name: ocean
+  label: Ocean
+  group: Originals
+- name: paper
+  label: Paper
+  group: Originals
+- name: terminal
+  label: Terminal
+  group: Originals
+- name: sunset
+  label: Sunset
+  group: Originals
+- name: minima
+  label: Minima
+  group: Jekyll-inspired
+- name: minima-dark
+  label: Minima Dark
+  group: Jekyll-inspired
+- name: cayman
+  label: Cayman
+  group: Jekyll-inspired
+- name: slate
+  label: Slate
+  group: Jekyll-inspired
+- name: hacker
+  label: Hacker
+  group: Jekyll-inspired
+- name: midnight
+  label: Midnight
+  group: Jekyll-inspired
+- name: architect
+  label: Architect
+  group: Jekyll-inspired
+- name: merlot
+  label: Merlot
+  group: Jekyll-inspired
+- name: tactile
+  label: Tactile
+  group: Jekyll-inspired
+- name: dinky
+  label: Dinky
+  group: Jekyll-inspired
+- name: leap-day
+  label: Leap Day
+  group: Jekyll-inspired
+- name: time-machine
+  label: Time Machine
+  group: Jekyll-inspired
+- name: modernist
+  label: Modernist
+  group: Jekyll-inspired
+- name: mm-air
+  label: Minimal Mistakes Air
+  group: Jekyll-inspired
+- name: mm-dark
+  label: Minimal Mistakes Dark
+  group: Jekyll-inspired
+- name: dracula
+  label: Dracula
+  group: Jekyll-inspired
+- name: solarized-light
+  label: Solarized Light
+  group: Jekyll-inspired
+- name: solarized-dark
+  label: Solarized Dark
+  group: Jekyll-inspired
+- name: nord
+  label: Nord
+  group: Jekyll-inspired
+- name: gruvbox
+  label: Gruvbox
+  group: Jekyll-inspired

@@ -1,0 +1,31 @@
+// Minima Dark: inspired by minima dark skin. Colours approximate the original.
+[data-theme="minima-dark"] {
+  --bg: #181818;
+  --text: #bbbbbb;
+  --muted: #828282;
+  --accent: #79b8ff;
+  --accent-hover: #79b8ff;
+  --link: #79b8ff;
+  --link-hover: #79b8ff;
+  --surface: #202020;
+  --surface-hover: #2a2a2a;
+  --surface-alt: #202020;
+  --header-bg: #181818;
+  --header-text: #e8e8e8;
+  --btn-bg: #202020;
+  --btn-border: #404040;
+  --btn-active-text: #181818;
+  --code-bg: #1e1e1e;
+  --code-text: #e8e8e8;
+  --table-head: #2a2a2a;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #79b8ff;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 4px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: dark;
+}

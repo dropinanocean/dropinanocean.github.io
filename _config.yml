@@ -29,6 +29,11 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+# Default look for the whole site. Any "name" from _data/themes.yml
+# (24 themes, e.g. ocean, cayman, hacker, dracula, nord). A page can override it with "theme: <name>"
+# in its front matter. Visitors can switch with the header dropdown or the T key.
+site_theme: ocean
+
 # Build settings
 theme: minima
 # remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll

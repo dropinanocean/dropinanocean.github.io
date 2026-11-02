@@ -1,0 +1,31 @@
+// Nord: inspired by the Nord palette. Colours approximate the original.
+[data-theme="nord"] {
+  --bg: #2e3440;
+  --text: #d8dee9;
+  --muted: #a3abba;
+  --accent: #88c0d0;
+  --accent-hover: #81a1c1;
+  --link: #81a1c1;
+  --link-hover: #88c0d0;
+  --surface: #3b4252;
+  --surface-hover: #434c5e;
+  --surface-alt: #3b4252;
+  --header-bg: #2e3440;
+  --header-text: #88c0d0;
+  --btn-bg: #3b4252;
+  --btn-border: #4c566a;
+  --btn-active-text: #2e3440;
+  --code-bg: #272c36;
+  --code-text: #a3be8c;
+  --table-head: #434c5e;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #88c0d0;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 8px;
+  --card-width: 300px;
+  --bubbles: block;
+  --bubble-color: #81a1c1;
+  color-scheme: dark;
+}

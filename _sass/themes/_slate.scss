@@ -1,0 +1,31 @@
+// Slate: inspired by pages-themes/slate. Colours approximate the original.
+[data-theme="slate"] {
+  --bg: #151515;
+  --text: #e5e5e5;
+  --muted: #a8a8a8;
+  --accent: #ffffff;
+  --accent-hover: #49a1f5;
+  --link: #49a1f5;
+  --link-hover: #ffffff;
+  --surface: #212121;
+  --surface-hover: #2b2b2b;
+  --surface-alt: #212121;
+  --header-bg: #212121;
+  --header-text: #ffffff;
+  --btn-bg: #2b2b2b;
+  --btn-border: #3a3a3a;
+  --btn-active-text: #151515;
+  --code-bg: #0d0d0d;
+  --code-text: #cccccc;
+  --table-head: #2b2b2b;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #ffffff;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: "Myriad Pro", Calibri, Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 4px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: dark;
+}

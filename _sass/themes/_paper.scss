@@ -1,0 +1,30 @@
+// Paper: clean, light, minimal reading theme. No bubbles.
+[data-theme="paper"] {
+  --bg: #f7f5f0;
+  --text: #2b2b2b;
+  --muted: #6b6b6b;
+  --accent: #1a5fb4;
+  --accent-hover: #0d3d7a;
+  --link: #1a5fb4;
+  --link-hover: #0d3d7a;
+  --surface: #ffffff;
+  --surface-hover: #eef3fb;
+  --surface-alt: #fafafa;
+  --header-bg: rgba(255, 255, 255, 0.97);
+  --btn-bg: #ffffff;
+  --btn-border: #d6d3cc;
+  --btn-active-text: #ffffff;
+  --code-bg: #f0eee8;
+  --code-text: #8a2b06;
+  --table-head: #e8e5de;
+  --row-tint: rgba(0, 0, 0, 0.03);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --font: Georgia, "Times New Roman", serif;
+  --title-font: Georgia, "Times New Roman", serif;
+  --radius: 6px;
+  --card-width: 320px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

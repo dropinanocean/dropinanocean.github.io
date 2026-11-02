@@ -1,0 +1,31 @@
+// Solarized Dark: inspired by the Solarized palette. Colours approximate the original.
+[data-theme="solarized-dark"] {
+  --bg: #002b36;
+  --text: #93a1a1;
+  --muted: #657b83;
+  --accent: #b58900;
+  --accent-hover: #268bd2;
+  --link: #268bd2;
+  --link-hover: #b58900;
+  --surface: #073642;
+  --surface-hover: #0d4655;
+  --surface-alt: #073642;
+  --header-bg: #073642;
+  --header-text: #b58900;
+  --btn-bg: #002b36;
+  --btn-border: #2a5560;
+  --btn-active-text: #002b36;
+  --code-bg: #00212b;
+  --code-text: #2aa198;
+  --table-head: #0d4655;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #b58900;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 6px;
+  --card-width: 300px;
+  --bubbles: block;
+  --bubble-color: #2aa198;
+  color-scheme: dark;
+}

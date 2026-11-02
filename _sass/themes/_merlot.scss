@@ -1,0 +1,31 @@
+// Merlot: inspired by pages-themes/merlot. Colours approximate the original.
+[data-theme="merlot"] {
+  --bg: #fcfaf6;
+  --text: #333333;
+  --muted: #7a6a5f;
+  --accent: #8b1a1a;
+  --accent-hover: #a62c2c;
+  --link: #a62c2c;
+  --link-hover: #8b1a1a;
+  --surface: #ffffff;
+  --surface-hover: #f7eeee;
+  --surface-alt: #ffffff;
+  --header-bg: #5e1414;
+  --header-text: #ffffff;
+  --btn-bg: #ffffff;
+  --btn-border: #e2d4cc;
+  --btn-active-text: #ffffff;
+  --code-bg: #f4ede6;
+  --code-text: #5e1414;
+  --table-head: #f7eeee;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: "Libre Baskerville", Georgia, serif;
+  --title-font: "Libre Baskerville", Georgia, serif;
+  --radius: 2px;
+  --card-width: 320px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

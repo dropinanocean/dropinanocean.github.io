@@ -1,0 +1,31 @@
+// Dracula: inspired by dracula-theme for Jekyll. Colours approximate the original.
+[data-theme="dracula"] {
+  --bg: #282a36;
+  --text: #f8f8f2;
+  --muted: #bdc1d6;
+  --accent: #ff79c6;
+  --accent-hover: #8be9fd;
+  --link: #8be9fd;
+  --link-hover: #ff79c6;
+  --surface: #343746;
+  --surface-hover: #44475a;
+  --surface-alt: #343746;
+  --header-bg: #21222c;
+  --header-text: #bd93f9;
+  --btn-bg: #343746;
+  --btn-border: #6272a4;
+  --btn-active-text: #282a36;
+  --code-bg: #21222c;
+  --code-text: #50fa7b;
+  --table-head: #44475a;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #ff79c6;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 10px;
+  --card-width: 300px;
+  --bubbles: block;
+  --bubble-color: #bd93f9;
+  color-scheme: dark;
+}

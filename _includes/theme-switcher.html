@@ -1,0 +1,11 @@
+<div class="theme-switch">
+  <label for="theme-select" class="visually-hidden">Theme</label>
+  <select id="theme-select" title="Change theme (T = next, Shift+T = previous)">
+    {% assign groups = site.data.themes | group_by: "group" %}
+    {% for g in groups %}
+      <optgroup label="{{ g.name }}">
+        {% for t in g.items %}<option value="{{ t.name }}">{{ t.label }}</option>{% endfor %}
+      </optgroup>
+    {% endfor %}
+  </select>
+</div>

@@ -1,0 +1,30 @@
+// Sunset: warm dark purple/orange, rounded, with warm bubbles.
+[data-theme="sunset"] {
+  --bg: #1f1226;
+  --text: #f3e6e1;
+  --muted: #f6c9a8;
+  --accent: #ff8a5c;
+  --accent-hover: #ffc09f;
+  --link: #ffb36b;
+  --link-hover: #ffd9a8;
+  --surface: #3a1f3d;
+  --surface-hover: #5a2e4f;
+  --surface-alt: #2c1830;
+  --header-bg: rgba(58, 31, 61, 0.95);
+  --btn-bg: #2c1830;
+  --btn-border: #7a3e5c;
+  --btn-active-text: #1f1226;
+  --code-bg: #170c1b;
+  --code-text: #ffb36b;
+  --table-head: #5a2e4f;
+  --row-tint: rgba(255, 138, 92, 0.06);
+  --glow: rgba(255, 192, 159, 0.7);
+  --shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --font: "Segoe UI", Arial, sans-serif;
+  --title-font: "Trebuchet MS", "Segoe UI", sans-serif;
+  --radius: 18px;
+  --card-width: 280px;
+  --bubbles: block;
+  --bubble-color: #ff8a5c;
+  color-scheme: dark;
+}

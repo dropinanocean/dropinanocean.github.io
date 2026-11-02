@@ -1,8 +1,16 @@
 - title: Home
   link: /
-
+- title: Finance
+  link: /finance/
+  cat: finance
+- title: Reading
+  link: /reading/
+  cat: reading
+- title: French
+  link: /french/
+  cat: french
+- title: House
+  link: /house/
+  cat: home
 - title: About
-  link: /about/  
-
-- title: Contact
-  link: /contact/       
+  link: /about/

@@ -1,0 +1,31 @@
+// Midnight: inspired by pages-themes/midnight. Colours approximate the original.
+[data-theme="midnight"] {
+  --bg: #000000;
+  --text: #f3f3f3;
+  --muted: #999999;
+  --accent: #ffffff;
+  --accent-hover: #b1d2ff;
+  --link: #b1d2ff;
+  --link-hover: #ffffff;
+  --surface: #111111;
+  --surface-hover: #1d1d1d;
+  --surface-alt: #111111;
+  --header-bg: #000000;
+  --header-text: #ffffff;
+  --btn-bg: #111111;
+  --btn-border: #333333;
+  --btn-active-text: #000000;
+  --code-bg: #141414;
+  --code-text: #b1d2ff;
+  --table-head: #1d1d1d;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #ffffff;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 6px;
+  --card-width: 300px;
+  --bubbles: block;
+  --bubble-color: #b1d2ff;
+  color-scheme: dark;
+}

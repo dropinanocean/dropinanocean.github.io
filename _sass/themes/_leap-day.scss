@@ -1,0 +1,31 @@
+// Leap Day: inspired by pages-themes/leap-day. Colours approximate the original.
+[data-theme="leap-day"] {
+  --bg: #eae6d1;
+  --text: #666666;
+  --muted: #8c8670;
+  --accent: #4276b6;
+  --accent-hover: #4276b6;
+  --link: #4276b6;
+  --link-hover: #4276b6;
+  --surface: #f8f6ec;
+  --surface-hover: #efebd8;
+  --surface-alt: #f8f6ec;
+  --header-bg: #f4f0dc;
+  --header-text: #4276b6;
+  --btn-bg: #f8f6ec;
+  --btn-border: #d5cfb0;
+  --btn-active-text: #ffffff;
+  --code-bg: #f2efe0;
+  --code-text: #4b4b4b;
+  --table-head: #efebd8;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: "Quattrocento Sans", "Helvetica Neue", Arial, sans-serif;
+  --title-font: "Quattrocento Sans", "Helvetica Neue", Arial, sans-serif;
+  --radius: 6px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

@@ -1,0 +1,31 @@
+// Solarized Light: inspired by the Solarized palette. Colours approximate the original.
+[data-theme="solarized-light"] {
+  --bg: #fdf6e3;
+  --text: #586e75;
+  --muted: #93a1a1;
+  --accent: #cb4b16;
+  --accent-hover: #268bd2;
+  --link: #268bd2;
+  --link-hover: #cb4b16;
+  --surface: #eee8d5;
+  --surface-hover: #e8dfc4;
+  --surface-alt: #eee8d5;
+  --header-bg: #eee8d5;
+  --header-text: #b58900;
+  --btn-bg: #fdf6e3;
+  --btn-border: #d6cdb0;
+  --btn-active-text: #ffffff;
+  --code-bg: #eee8d5;
+  --code-text: #d33682;
+  --table-head: #e8dfc4;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 6px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

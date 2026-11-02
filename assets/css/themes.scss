@@ -1,0 +1,30 @@
+---
+# Bundles every theme in _sass/themes/. To add a theme:
+#   1. create _sass/themes/_<name>.scss (copy an existing one)
+#   2. add an @import line below
+#   3. add it to _data/themes.yml
+---
+@import "themes/ocean";
+@import "themes/paper";
+@import "themes/terminal";
+@import "themes/sunset";
+@import "themes/minima";
+@import "themes/minima-dark";
+@import "themes/cayman";
+@import "themes/slate";
+@import "themes/hacker";
+@import "themes/midnight";
+@import "themes/architect";
+@import "themes/merlot";
+@import "themes/tactile";
+@import "themes/dinky";
+@import "themes/leap-day";
+@import "themes/time-machine";
+@import "themes/modernist";
+@import "themes/mm-air";
+@import "themes/mm-dark";
+@import "themes/dracula";
+@import "themes/solarized-light";
+@import "themes/solarized-dark";
+@import "themes/nord";
+@import "themes/gruvbox";

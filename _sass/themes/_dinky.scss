@@ -1,0 +1,31 @@
+// Dinky: inspired by pages-themes/dinky. Colours approximate the original.
+[data-theme="dinky"] {
+  --bg: #f4f4f4;
+  --text: #222222;
+  --muted: #666666;
+  --accent: #333333;
+  --accent-hover: #3399cc;
+  --link: #3399cc;
+  --link-hover: #333333;
+  --surface: #ffffff;
+  --surface-hover: #eaf4fa;
+  --surface-alt: #ffffff;
+  --header-bg: #333333;
+  --header-text: #ffffff;
+  --btn-bg: #ffffff;
+  --btn-border: #cccccc;
+  --btn-active-text: #ffffff;
+  --code-bg: #eeeeee;
+  --code-text: #222222;
+  --table-head: #eaf4fa;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 8px;
+  --card-width: 280px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

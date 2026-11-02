@@ -1,0 +1,31 @@
+// Cayman: inspired by pages-themes/cayman. Colours approximate the original.
+[data-theme="cayman"] {
+  --bg: #ffffff;
+  --text: #606c71;
+  --muted: #819198;
+  --accent: #159957;
+  --accent-hover: #1e6bb8;
+  --link: #1e6bb8;
+  --link-hover: #159957;
+  --surface: #f9fbfb;
+  --surface-hover: #eef6f3;
+  --surface-alt: #f9fbfb;
+  --header-bg: linear-gradient(120deg, #155799, #159957);
+  --header-text: #ffffff;
+  --btn-bg: #ffffff;
+  --btn-border: #dce6f0;
+  --btn-active-text: #ffffff;
+  --code-bg: #f3f6fa;
+  --code-text: #567482;
+  --table-head: #eef6f3;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 6px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

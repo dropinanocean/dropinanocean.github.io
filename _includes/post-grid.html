@@ -1,0 +1,8 @@
+<div class="posts-grid">
+  {% for post in include.posts %}
+  <a class="post-card" href="{{ post.url | relative_url }}" data-post-date="{{ post.date | date_to_xmlschema }}">
+    <div class="post-title">{{ post.title }}</div>
+    <div class="post-date"></div>
+  </a>
+  {% endfor %}
+</div>

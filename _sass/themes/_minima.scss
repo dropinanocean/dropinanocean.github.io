@@ -1,0 +1,31 @@
+// Minima: inspired by jekyll/minima (default). Colours approximate the original.
+[data-theme="minima"] {
+  --bg: #fdfdfd;
+  --text: #111111;
+  --muted: #828282;
+  --accent: #2a7ae2;
+  --accent-hover: #2a7ae2;
+  --link: #2a7ae2;
+  --link-hover: #2a7ae2;
+  --surface: #ffffff;
+  --surface-hover: #f2f6fc;
+  --surface-alt: #ffffff;
+  --header-bg: #ffffff;
+  --header-text: #424242;
+  --btn-bg: #ffffff;
+  --btn-border: #e8e8e8;
+  --btn-active-text: #ffffff;
+  --code-bg: #eeeeff;
+  --code-text: #111111;
+  --table-head: #f2f6fc;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --title-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --radius: 4px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

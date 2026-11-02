@@ -1,0 +1,31 @@
+// Architect: inspired by pages-themes/architect. Colours approximate the original.
+[data-theme="architect"] {
+  --bg: #f2f2f2;
+  --text: #666666;
+  --muted: #888888;
+  --accent: #2879d0;
+  --accent-hover: #2879d0;
+  --link: #2879d0;
+  --link-hover: #2879d0;
+  --surface: #ffffff;
+  --surface-hover: #eef4fb;
+  --surface-alt: #ffffff;
+  --header-bg: linear-gradient(180deg, #2879d0, #1f5fa3);
+  --header-text: #ffffff;
+  --btn-bg: #ffffff;
+  --btn-border: #d5d5d5;
+  --btn-active-text: #ffffff;
+  --code-bg: #f6f6f6;
+  --code-text: #333333;
+  --table-head: #eef4fb;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: "Architects Daughter", "Comic Sans MS", cursive;
+  --title-font: "Architects Daughter", "Comic Sans MS", cursive;
+  --radius: 8px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

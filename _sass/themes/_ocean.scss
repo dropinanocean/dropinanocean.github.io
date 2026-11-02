@@ -1,0 +1,30 @@
+// Ocean: the original dark blue look with bubbles.
+[data-theme="ocean"] {
+  --bg: #0f1a2b;
+  --text: #e0e0e0;
+  --muted: #c0e8ff;
+  --accent: #66c2ff;
+  --accent-hover: #a0d4ff;
+  --link: #00d4ff;
+  --link-hover: #80f0ff;
+  --surface: #1e3a5f;
+  --surface-hover: #336699;
+  --surface-alt: #152b45;
+  --header-bg: rgba(30, 58, 95, 0.95);
+  --btn-bg: #16304f;
+  --btn-border: #2c5282;
+  --btn-active-text: #0f1a2b;
+  --code-bg: #0c1523;
+  --code-text: #80f0ff;
+  --table-head: #1e4a7d;
+  --row-tint: rgba(102, 194, 255, 0.06);
+  --glow: rgba(160, 212, 255, 0.8);
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  --font: Arial, sans-serif;
+  --title-font: Arial, sans-serif;
+  --radius: 12px;
+  --card-width: 280px;
+  --bubbles: block;
+  --bubble-color: #66c2ff;
+  color-scheme: dark;
+}

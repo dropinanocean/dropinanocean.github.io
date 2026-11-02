@@ -1,0 +1,31 @@
+// Modernist: inspired by pages-themes/modernist. Colours approximate the original.
+[data-theme="modernist"] {
+  --bg: #ffffff;
+  --text: #3f3f3f;
+  --muted: #777777;
+  --accent: #e8392f;
+  --accent-hover: #267cb9;
+  --link: #267cb9;
+  --link-hover: #e8392f;
+  --surface: #ffffff;
+  --surface-hover: #f6f6f6;
+  --surface-alt: #ffffff;
+  --header-bg: #ffffff;
+  --header-text: #e8392f;
+  --btn-bg: #ffffff;
+  --btn-border: #e0e0e0;
+  --btn-active-text: #ffffff;
+  --code-bg: #f7f7f7;
+  --code-text: #333333;
+  --table-head: #f6f6f6;
+  --row-tint: rgba(0, 0, 0, 0.04);
+  --glow: transparent;
+  --shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
+  --font: "Lato", "Helvetica Neue", Arial, sans-serif;
+  --title-font: "Lato", "Helvetica Neue", Arial, sans-serif;
+  --radius: 0px;
+  --card-width: 320px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: light;
+}

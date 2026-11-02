@@ -1,0 +1,31 @@
+// Hacker: inspired by pages-themes/hacker. Colours approximate the original.
+[data-theme="hacker"] {
+  --bg: #151515;
+  --text: #eaeaea;
+  --muted: #aaaaaa;
+  --accent: #b5e853;
+  --accent-hover: #63c0f5;
+  --link: #63c0f5;
+  --link-hover: #b5e853;
+  --surface: #1c1c1c;
+  --surface-hover: #262626;
+  --surface-alt: #1c1c1c;
+  --header-bg: #181818;
+  --header-text: #b5e853;
+  --btn-bg: #151515;
+  --btn-border: #3a3a3a;
+  --btn-active-text: #151515;
+  --code-bg: #0b0b0b;
+  --code-text: #b5e853;
+  --table-head: #262626;
+  --row-tint: rgba(255, 255, 255, 0.04);
+  --glow: #b5e853;
+  --shadow: 0 6px 15px rgba(0, 0, 0, 0.45);
+  --font: "Consolas", "Courier New", monospace;
+  --title-font: "Consolas", "Courier New", monospace;
+  --radius: 2px;
+  --card-width: 300px;
+  --bubbles: none;
+  --bubble-color: transparent;
+  color-scheme: dark;
+}
